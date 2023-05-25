@@ -21,6 +21,7 @@ const App = () => {
    */
 
   return <div className="app">
+    <h1>Hello world</h1>
     {/* <Title /> is static, doesn't need any props */}
     <Title />
     {/* <Search /> needs props for setIsLoading and setSearchResults (trigger <Loading /> on search start/end, and transfer results to preview) */}
